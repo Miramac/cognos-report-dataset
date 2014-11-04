@@ -1,0 +1,21 @@
+{
+  "name": "cognos-report-dataset",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/dataset.test.mocha.js"
+  },
+  "author": "fabian Roloff <fabian.roloff@vocatus.de",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "xml2js": "^0.4.4"
+  }
+
+}
