@@ -1,8 +1,12 @@
- <dataset
+  <?xml version="1.0" encoding="utf-8" ?> 
+ <dataset xmlns="http://developer.cognos.com/schemas/xmldata/1/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+ <!-- 
+<dataset
     xmlns="http://developer.cognos.com/schemas/xmldata/1/"
     xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
     xs:schemaLocation="http://developer.cognos.com/schemas/xmldata/1/ xmldata.xsd"
 >
+  --> 
  <metadata>
   <item name="Report_ID" type="xs:int" precision="1" />
   <item name="ReportType05_ID" type="xs:short" precision="1" />

@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/dataset.test.mocha.js"
+    "test": "mocha test/test.mocha.dataset.js"
   },
   "author": "fabian Roloff <fabian.roloff@vocatus.de",
   "license": "ISC",
