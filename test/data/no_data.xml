@@ -1,0 +1,32 @@
+  <?xml version="1.0" encoding="utf-8" ?> 
+ <dataset xmlns="http://developer.cognos.com/schemas/xmldata/1/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+ <!-- 
+<dataset
+    xmlns="http://developer.cognos.com/schemas/xmldata/1/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://developer.cognos.com/schemas/xmldata/1/ xmldata.xsd"
+>
+
+  --> 
+ <metadata>
+  <item name="Report_ID" type="xs:int" precision="1" /> 
+  <item name="ReportType05_ID" type="xs:short" precision="1" /> 
+  <item name="Split_ID" type="xs:int" precision="1" /> 
+  <item name="Split_Label" type="xs:string" length="514" /> 
+  <item name="Split_SortOrder" type="xs:string" length="22" /> 
+  <item name="Wave_ID" type="xs:int" precision="1" /> 
+  <item name="Wave_SortOrder" type="xs:string" length="22" /> 
+  <item name="Wave_LabelShort" type="xs:string" length="512" /> 
+  <item name="N" type="xs:int" precision="1" /> 
+  <item name="Result_Count_Weighted" type="xs:double" precision="2" /> 
+  <item name="Result_Value_Weighted" type="xs:double" precision="2" /> 
+  <item name="SplitResultState_Hide_Result" type="xs:int" precision="1" /> 
+  <item name="delete-slide" type="xs:string" length="40" /> 
+  <item name="Result_Value_Weighted_Max" type="xs:double" precision="2" /> 
+  <item name="Result_Value_Weighted_Min" type="xs:double" precision="2" /> 
+  <item name="VarText_Label01" type="xs:string" length="512" /> 
+  <item name="VarText_EmptyLabel" type="xs:string" length="26" /> 
+  <item name="Footer" type="xs:string" length="512" /> 
+  </metadata>
+  <data /> 
+  </dataset>

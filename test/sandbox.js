@@ -11,9 +11,9 @@ var fs = require('fs')
 var parser = new xml2js.Parser();
 fs.readFile(__dirname + '/data/report.xml', function(err, data) {
     parser.parseString(data, function (err, result) {
-  //      console.log(util.inspect(result.dataset.metadata[0],{ showHidden: true, depth: null }));
+      //  console.log(util.inspect(result.dataset,{ showHidden: false, depth: null }));
         var report =  new DataSet (result.dataset, { sortBy: ['Split_SortOrder', 'Wave_SortOrder']});
-        console.log(util.inspect(report.metadata, {depth:3}));
+        console.log(util.inspect(report.data, {depth:3}));
     });
 });
 
