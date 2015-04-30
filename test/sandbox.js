@@ -8,6 +8,17 @@ var fs = require('fs')
 
 
 
+
+var parser = new xml2js.Parser();
+fs.readFile(__dirname + '/data/crosstab.xml', function(err, data) {
+    parser.parseString(data, function (err, result) {
+            
+        console.log(util.inspect(result.dataset.crosstab[0].values, {depth:6}));
+    });
+});
+
+
+
 var parser = new xml2js.Parser();
 fs.readFile(__dirname + '/data/report.xml', function(err, data) {
     parser.parseString(data, function (err, result) {

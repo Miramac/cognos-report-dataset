@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset  xmlns="http://developer.cognos.com/schemas/xmldata/1/"  xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+  <crosstab>
+    <values>
+      <value row="R1" col="C1">0.7449799</value>
+      <value row="R1" col="C2">0.705976</value>
+      <value row="R1" col="C3" xs:nil="true"/>
+      <value row="R1" col="C4" xs:nil="true"/>
+      <value row="R2" col="C1" xs:nil="true"/>
+      <value row="R2" col="C2" xs:nil="true"/>
+      <value row="R2" col="C3">0.7677293</value>
+      <value row="R2" col="C4">0.6968026</value>
+    </values>
+    <corner>
+      <caption>ParticipationRate</caption>
+    </corner>
+    <columns>
+      <colEdge>
+        <caption>Label XY</caption>
+        <colEdge id="C1">
+          <caption>A</caption>
+        </colEdge>
+        <colEdge id="C2">
+          <caption>B</caption>
+        </colEdge>
+      </colEdge>
+      <colEdge>
+        <caption>1000</caption>
+        <colEdge id="C3">
+          <caption>A</caption>
+        </colEdge>
+        <colEdge id="C4">
+          <caption>B</caption>
+        </colEdge>
+      </colEdge>
+    </columns>
+    <rows>
+      <rowEdge id="R1">
+        <caption>Unit A</caption>
+      </rowEdge>
+      <rowEdge id="R2">
+        <caption>Unit B</caption>
+      </rowEdge>
+    </rows>
+  </crosstab>
+</dataset>
